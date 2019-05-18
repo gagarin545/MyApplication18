@@ -15,8 +15,8 @@ class InitSocket extends Variable {
     private InitSocket() {}
 
     static void getSock() throws IOException {
-        int portNumber = 35135; //34335; 35135;
-        String Host = "192.168.100.4";   //    "10.183.5.99";   "192.168.100.4";     "178.46.165.205";
+        int portNumber = 35135; 
+        String Host = "192.168.100.4";   
 
         if (sock == null) {
             sock = new Socket(Host, portNumber);
